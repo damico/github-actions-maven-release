@@ -99,6 +99,7 @@ runs:
   args:
     - release.sh
   env:
+    JAVA_HOME: ${{ inputs.java-home }}
     RELEASE_BRANCH_NAME: ${{ inputs.release-branch-name }}
     GIT_RELEASE_BOT_NAME: ${{ inputs.git-release-bot-name }}
     GIT_RELEASE_BOT_EMAIL: ${{ inputs.git-release-bot-email }}
