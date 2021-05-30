@@ -44,6 +44,10 @@ inputs:
   access-token:
     description: 'Github access token. https://help.github.com/en/github/authenticating-to-github/creating-a-personal-access-token-for-the-command-line'
     required: true
+    
+  java-home:
+    description: 'jdk home'
+    required: true
 
 
   maven-release-args:
